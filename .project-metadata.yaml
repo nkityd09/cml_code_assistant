@@ -47,7 +47,7 @@ tasks:
     memory: 16
 
   - type: start_application
-    name: CML LLM Chatbot
+    name: CML Code Assistant
     subdomain: cmlllm
     script: gradio-app/app.py
     short_summary: Start CML LLM Chatbot application
