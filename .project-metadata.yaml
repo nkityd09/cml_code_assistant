@@ -1,26 +1,16 @@
-name: CML Speech To Text
+name: CML Code Assistant
 description: |
-  This AMP uses OpenAI Whisper to transcribe Audio and an LLM model of your choice to summarize the transcribed text.
+  This AMP will create a code assistant chatbot powered by CodeLlama 
 
 author: Cloudera Inc.
 specification_version: 1.0
 prototype_version: 1.0
 date: "2023-09-27"
 
-environment_variables:
-  VectorDB_IP:
-    default: ""
-    description: >-
-      Provide IP of Chroma DB
-  HF_TOKEN:
-    default: ""
-    description: >-
-      Provide HF_TOKEN for Meta Llama-2 Model
-
 runtimes:
   - editor: JupyterLab
     kernel: Python 3.9
-    edition: S2T Edition
+    edition: Nvidia GPU
 
 tasks:
   - type: run_session
