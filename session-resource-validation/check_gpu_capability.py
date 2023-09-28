@@ -1,4 +1,4 @@
-!pip install -q --no-cache-dir torch==2.0.1
+!pip install -q --no-cache-dir torch
 
 import torch
 import sys
